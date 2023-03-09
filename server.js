@@ -7,7 +7,7 @@ const app = express();
 
 const MongoClient = require('mongodb').MongoClient
 
-const connectionString = 'mongodb+srv://phatlt2203:notgonnaforget@cluster0.li0zk9y.mongodb.net/?retryWrites=true&w=majority'
+const connectionString = 'mongodb+srv://phatlt:123@quotes.qctdq5y.mongodb.net/?retryWrites=true&w=majority'
 
 // (0) CONNECT: server -> connect -> MongoDB Atlas 
 MongoClient.connect(connectionString, { useUnifiedTopology: true })
